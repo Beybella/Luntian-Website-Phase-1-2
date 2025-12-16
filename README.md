@@ -87,8 +87,8 @@ The website is structured to be intuitive for online shoppers:
 
 The site is hosted statically using GitHub Pages.
 
-* **GitHub Repository:** 
-* **Live Site:** 
+* **GitHub Repository: https://github.com/Beybella/Luntian-Website-Phase-1-2.git** 
+* **Live Site: https://beybella.github.io/Luntian-Website-Phase-1-2/** 
 
 ---
 
