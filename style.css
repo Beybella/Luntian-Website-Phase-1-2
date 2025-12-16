@@ -1025,6 +1025,16 @@ h3 {
     margin-top: 2rem;
 }
 
+.cart-items-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 .cart-table {
     width: 100%;
     border-collapse: collapse;
@@ -1186,9 +1196,116 @@ h3 {
         position: static;
     }
     
+    .cart-table {
+        font-size: 0.85rem;
+    }
+    
     .cart-table th,
     .cart-table td {
-        padding: 0.75rem;
+        padding: 0.75rem 0.5rem;
+        font-size: 0.85rem;
+    }
+    
+    .cart-table th:nth-child(2),
+    .cart-table td:nth-child(2) {
+        display: none;
+    }
+    
+    .quantity-controls {
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+    
+    .quantity-controls button,
+    .quantity-input {
+        font-size: 0.8rem;
+        padding: 0.4rem;
+    }
+    
+    .remove-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .summary-card {
+        padding: 1.5rem;
+    }
+    
+    .summary-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .summary-row,
+    .total-row {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .shopping-cart {
+        padding: 2rem 0;
+    }
+    
+    .cart-content {
+        gap: 1.5rem;
+    }
+    
+    .cart-table {
+        font-size: 0.75rem;
+    }
+    
+    .cart-table th,
+    .cart-table td {
+        padding: 0.5rem 0.3rem;
+        font-size: 0.75rem;
+    }
+    
+    .cart-item-name {
+        font-size: 0.85rem;
+    }
+    
+    .quantity-controls button {
+        width: 25px;
+        height: 25px;
+        font-size: 0.7rem;
+    }
+    
+    .quantity-input {
+        width: 40px;
+        padding: 0.2rem;
+        font-size: 0.75rem;
+    }
+    
+    .remove-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.7rem;
+    }
+    
+    .summary-card {
+        padding: 1rem;
+    }
+    
+    .summary-card h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .summary-row,
+    .total-row {
         font-size: 0.9rem;
+    }
+    
+    .btn-checkout,
+    .cart-summary .btn-secondary {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .section-header p {
+        font-size: 0.95rem;
     }
 }
