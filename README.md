@@ -76,10 +76,10 @@ The website is structured to be intuitive for online shoppers:
 ## 👥 Team Members & Roles
 
 | Name                         | Role | Original Project Role|
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | 
 | **Dela Corta, John Cedrick** | Project Manager & Developer | Project Manager |
 | **Peji, J.C. Roeven**        | Designer, Content Writer, & Developer | Designer & Content Writer |
-| **Valerio, Arabella**        | Researcher & Developer | Researcher | Designer |
+| **Valerio, Arabella**        | Researcher & Developer | Researcher & Designer |
 
 ---
 
