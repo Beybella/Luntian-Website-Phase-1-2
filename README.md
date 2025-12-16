@@ -76,6 +76,7 @@ The website is structured to be intuitive for online shoppers:
 ## 👥 Team Members & Roles
 
 | Name                         | Role | Original Project Role|
+| :--- | :--- | :--- |
 | **Dela Corta, John Cedrick** | Project Manager & Developer | Project Manager |
 | **Peji, J.C. Roeven**        | Designer, Content Writer, & Developer | Designer & Content Writer |
 | **Valerio, Arabella**        | Researcher & Developer | Researcher | Designer |
@@ -99,9 +100,9 @@ The site is hosted statically using GitHub Pages.
 
 ## Timeline
 | Phase       | Task                  | Date               |
+| :--- | :--- | :--- |
 | Proposal    | Planning & wireframe  | Nov 14, 2025       |
 | Development | Coding & testing      | Nov 15–Nov 20, 2025|
 | Deployment  | GitHub setup & launch | Nov 21–24, 2025    |
 | Submission  | Final documentation   | Dec 12, 2025       |
 
->>>>>>> 10761ec (edited readme and arranged the files)
